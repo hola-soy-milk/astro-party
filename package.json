@@ -10,6 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^3.3.2"
+    "astro": "^3.3.2",
+    "partysocket": "0.0.12"
+  },
+  "devDependencies": {
+    "partykit": "0.0.32"
   }
 }
