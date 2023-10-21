@@ -10,8 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/svelte": "^4.0.3",
     "astro": "^3.3.2",
-    "partysocket": "0.0.12"
+    "partysocket": "0.0.12",
+    "svelte": "^4.2.2"
   },
   "devDependencies": {
     "partykit": "0.0.32"
