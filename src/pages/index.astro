@@ -34,7 +34,12 @@ import Party from "../components/Party.svelte";
         </linearGradient>
       </defs>
     </svg>
-    <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+    <h1>
+      Welcome to <br />
+      <span class="text-gradient">Astro</span> + <span class="text-gradient"
+        >PartyKit 🎈</span
+      >
+    </h1>
     <Party client:load />
     <p class="instructions">
       To get started, open the directory <code>src/pages</code> in your project.<br
@@ -42,26 +47,32 @@ import Party from "../components/Party.svelte";
       <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message
       above.
     </p>
+    <p class="instructions partykit">
+      🎈 To get started with your new PartyKit server, open the file <code
+        >party/index.ts</code
+      > in your project.<br />
+      <strong>Code Challenge:</strong> Tweak the `partyMessage`.
+    </p>
     <ul role="list" class="link-card-grid">
       <Card
         href="https://docs.astro.build/"
-        title="Documentation"
+        title="Astro Documentation"
         body="Learn how Astro works and explore the official API docs."
       />
       <Card
-        href="https://astro.build/integrations/"
-        title="Integrations"
-        body="Supercharge your project with new frameworks and libraries."
-      />
-      <Card
-        href="https://astro.build/themes/"
-        title="Themes"
-        body="Explore a galaxy of community-built starter themes."
+        href="https://docs.partykit.io"
+        title="PartyKit Documentation"
+        body="Learn how PartyKit works and explore the official API docs."
       />
       <Card
         href="https://astro.build/chat/"
-        title="Community"
-        body="Come say hi to our amazing Discord community. ❤️"
+        title="Astro Community"
+        body="Come say hi to the Astro Community. ❤️"
+      />
+      <Card
+        href="https://discord.gg/KDZb7J4uxJ"
+        title="PartyKit Community"
+        body="Come say hi to the PartyKit. 🎈"
       />
     </ul>
   </main>
@@ -109,6 +120,12 @@ import Party from "../components/Party.svelte";
     );
     padding: 1.5rem;
     border-radius: 8px;
+  }
+  .instructions.partykit {
+    background: linear-gradient(
+      rgba(var(--accent-dark), 33%),
+      rgba(var(--accent-dark), 66%)
+    );
   }
   .instructions code {
     font-size: 0.8em;
