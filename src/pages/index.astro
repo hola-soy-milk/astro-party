@@ -3,9 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import Party from "../components/Party.svelte";
 const isProd = import.meta.env.PROD;
-const partyHost = isProd
-  ? "https://astro-party-party.hola-soy-milk.partykit.dev"
-  : "http://localhost:1999";
+const partyHost = isProd ? import.meta.env.PARTY_URL : "http://localhost:1999";
 ---
 
 <Layout title="Welcome to Astro.">

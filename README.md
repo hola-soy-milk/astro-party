@@ -57,6 +57,12 @@ Your PartyKit client implementation is in `src/components/Party.svelte`.
 
     npm start
 
+## Deploying to Production
+
+The `PARTY_URL` environment variable needs to be set in order to work live.
+
+Find our more about [deploying PartyKit servers in their docs](https://docs.partykit.io/guides/deploying-your-partykit-server/).
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
