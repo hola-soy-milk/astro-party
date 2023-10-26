@@ -8,7 +8,7 @@ npm create astro@latest -- --template hola-soy-milk/astro-party
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/hola-soy-milk/astro-party)
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/hola-soy-milk/astro-party?devcontainer_path=.devcontainer/basics/devcontainer.json)
 
-This theme is forked off the [Astro Basics Theme](github.com/withastro/astro/tree/latest/examples/basics) with a built-in PartyKit integration.
+This theme is forked off the [Astro Basics Theme](https://github.com/withastro/astro/tree/latest/examples/basics) with a built-in PartyKit integration.
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
