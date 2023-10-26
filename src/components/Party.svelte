@@ -2,7 +2,7 @@
   // client
   import PartySocket from "partysocket";
 
-  let number = 0;
+  let partyMessage = "Waiting for the party to start ";
 
   // connect to our server
   const partySocket = new PartySocket({
@@ -10,14 +10,10 @@
     room: "my-room",
   });
 
-  // send a message to the server
-  partySocket.send("Hello everyone");
-
   // print each incoming message from the server to console
   partySocket.addEventListener("message", (e) => {
-    number = e.data;
+    partyMessage = e.data;
   });
 </script>
 
-<!-- {src} is short for src={src} -->
-<h1>{number}</h1>
+<h2>{partyMessage}</h2>
