@@ -12,7 +12,8 @@ This theme is forked off the [Astro Basics Theme](https://github.com/withastro/a
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-![Screenshot of the Astro + PartyKit](https://github.com/hola-soy-milk/astro-party/assets/656318/e0eccfdf-3bc4-409f-a9f6-c6528162e2d2)
+![Screenshot of the Astro + PartyKit theme](https://github.com/hola-soy-milk/astro-party/assets/656318/ded71bbc-5567-4a10-8259-4dbdeb9f6c6c)
+
 
 
 ## 🚀 Project Structure
