@@ -10,7 +10,8 @@ npm create astro@latest -- --template hola-soy-milk/astro-party
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+![Screenshot of the Astro + PartyKit](https://github.com/hola-soy-milk/astro-party/assets/656318/e0eccfdf-3bc4-409f-a9f6-c6528162e2d2)
+
 
 ## 🚀 Project Structure
 
@@ -40,6 +41,8 @@ There's nothing special about `src/components/`, but that's where we like to put
 Any static assets, like images, can be placed in the `public/` directory.
 
 Your PartyKit server implementation is in `party/index.ts`.
+
+Your PartyKit client implementation is in `src/components/Party.svelte`.
 
 ## 🎈 Running Locally
 
