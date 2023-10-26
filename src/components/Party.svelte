@@ -1,4 +1,5 @@
 <script>
+  export let host;
   // client
   import PartySocket from "partysocket";
 
@@ -6,7 +7,7 @@
 
   // connect to our server
   const partySocket = new PartySocket({
-    host: "localhost:1999",
+    host,
     room: "my-room",
   });
 

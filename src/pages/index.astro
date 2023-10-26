@@ -2,6 +2,10 @@
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import Party from "../components/Party.svelte";
+const isProd = import.meta.env.PROD;
+const partyHost = isProd
+  ? "https://astro-party-party.hola-soy-milk.partykit.dev"
+  : "http://localhost:1999";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -40,7 +44,7 @@ import Party from "../components/Party.svelte";
         >PartyKit 🎈</span
       >
     </h1>
-    <Party client:load />
+    <Party client:load host={partyHost} />
     <p class="instructions">
       To get started, open the directory <code>src/pages</code> in your project.<br
       />
