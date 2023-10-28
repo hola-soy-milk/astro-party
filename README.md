@@ -7,6 +7,9 @@ npm create astro@latest -- --template hola-soy-milk/astro-party
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/hola-soy-milk/astro-party)
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/hola-soy-milk/astro-party)
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/hola-soy-milk/astro-party?devcontainer_path=.devcontainer/basics/devcontainer.json)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/hola-soy-milk/astro-party)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhola-soy-milk%2Fnext.js%2Fastro-party)
+
 
 This theme is forked off the [Astro Basics Theme](https://github.com/withastro/astro/tree/latest/examples/basics) with a built-in PartyKit integration.
 
